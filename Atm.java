@@ -41,6 +41,6 @@ public class Atm {
 	{
 		this.withdrawAmount = withdrawAmount;
 	}
-
+        
 	
 }
