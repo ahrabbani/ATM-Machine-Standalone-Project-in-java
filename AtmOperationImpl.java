@@ -22,7 +22,7 @@ public class AtmOperationImpl implements AtmOperationInterf {
 			if(withdrawAmount<=atm.getBalance())
 			{
 				ministmt.put(withdrawAmount,"Amount withdrawn");
-				System.out.println("collect the cash" +withdrawAmount);
+				System.out.println("Collect the cash" +withdrawAmount);
 				atm.setBalance(atm.getBalance()-withdrawAmount);
 				viewBalance();
 			}
@@ -33,7 +33,7 @@ public class AtmOperationImpl implements AtmOperationInterf {
 		}
 		else
 		{
-			System.out.println("please enter the amount in multipple of 500");
+			System.out.println("Please enter the amount in multipple of 500");
 		}
 		
 	}
@@ -41,8 +41,8 @@ public class AtmOperationImpl implements AtmOperationInterf {
 	@Override
 	public void depositAmount(double depositAmount) {
 		// TODO Auto-generated method stub
-		ministmt.put(depositAmount,"Amount Deposited");
-		System.out.println(depositAmount+ "Deposited Succesfully!");
+		ministmt.put(depositAmount," Amount Deposited");
+		System.out.println(depositAmount+ " Deposited Succesfully!");
 		atm.setBalance(atm.getBalance()+depositAmount);
 		viewBalance();
 	}
