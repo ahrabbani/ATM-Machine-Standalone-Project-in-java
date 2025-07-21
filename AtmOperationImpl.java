@@ -17,7 +17,7 @@ public class AtmOperationImpl implements AtmOperationInterf {
 	@Override
 	public void withdrawAmount(double withdrawAmount) {
 		// TODO Auto-generated method stub
-		if(withdrawAmount%500==0)
+		if(withdrawAmount % 500 == 0)
 		{
 			if(withdrawAmount<=atm.getBalance())
 			{
@@ -28,12 +28,12 @@ public class AtmOperationImpl implements AtmOperationInterf {
 			}
 			else
 			{
-				System.out.println("Insufficient Balance!");
+				System.out.println(" Insufficient Balance! ");
 			}
 		}
 		else
 		{
-			System.out.println("Please enter the amount in multipple of 500");
+			System.out.println(" Please enter the amount in multipple of 500 ");
 		}
 		
 	}
