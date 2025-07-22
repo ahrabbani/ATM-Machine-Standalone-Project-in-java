@@ -13,10 +13,10 @@ public class AtmMain {
 		int atmnumber=12345;
 		int atmpin=123;
 		Scanner sc=new Scanner(System.in);
-		System.out.println("welcome to ATM Machine!");
-		System.out.print("enter atm number: ");
+		System.out.println(" Welcome to ATM Machine!");
+		System.out.print(" Enter ATM number: ");
 		int atmnumber1=sc.nextInt();
-		System.out.print("enter pin: ");
+		System.out.print(" Enter Pin: ");
 		int atmpin1=sc.nextInt();
 		if((atmnumber==atmnumber1) &&(atmpin==atmpin1))
 		{
