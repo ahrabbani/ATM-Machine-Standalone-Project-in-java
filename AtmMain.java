@@ -22,7 +22,7 @@ public class AtmMain {
 		{
 			while(true)
 			{
-				System.out.println("1.View Available Balance\n2.Withdraw Amount\n3.Deposit amount\n4.View MiniStatement\n5.exit");
+				System.out.println("1. View Available Balance\n2. Withdraw Amount\n3. Deposit amount\n4. View MiniStatement\n5. exit");
 				System.out.println("enter choice :");
 				int ch=sc.nextInt();
 				if(ch==1)
