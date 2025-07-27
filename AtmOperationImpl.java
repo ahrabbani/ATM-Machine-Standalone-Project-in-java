@@ -19,7 +19,7 @@ public class AtmOperationImpl implements AtmOperationInterf {
 		// TODO Auto-generated method stub
 		if(withdrawAmount % 500 == 0)
 		{
-			if(withdrawAmount<=atm.getBalance())
+			if(withdrawAmount <= atm.getBalance())
 			{
 				ministmt.put(withdrawAmount," Amount withdrawn ");
 				System.out.println("Collect the Cash" + withdrawAmount);
@@ -33,7 +33,7 @@ public class AtmOperationImpl implements AtmOperationInterf {
 		}
 		else
 		{
-			System.out.println(" Please enter the amount in multipple of 500 ");
+			System.out.println(" Please enter the amount in multipple of 500. ");
 		}
 		
 	}
@@ -41,8 +41,8 @@ public class AtmOperationImpl implements AtmOperationInterf {
 	@Override
 	public void depositAmount(double depositAmount) {
 		// TODO Auto-generated method stub
-		ministmt.put(depositAmount," Amount Deposited");
-		System.out.println(depositAmount+ " Deposited Succesfully!");
+		ministmt.put(depositAmount," Amount Deposited ");
+		System.out.println(depositAmount+ " Deposited Succesfully! ");
 		atm.setBalance(atm.getBalance()+depositAmount);
 		viewBalance();
 	}
@@ -57,7 +57,7 @@ public class AtmOperationImpl implements AtmOperationInterf {
 		Set<Double> set=ministmt.keySet();
 		for(Double d:set) {
 		
-			System.out.println(d+"="+ministmt.get(d));
+			System.out.println(d+" = "+ministmt.get(d));
 		}
 	}
 
