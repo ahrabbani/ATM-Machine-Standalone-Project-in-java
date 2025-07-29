@@ -18,11 +18,11 @@ public class AtmMain {
 		int atmnumber1=sc.nextInt();
 		System.out.print(" Enter Pin: ");
 		int atmpin1=sc.nextInt();
-		if((atmnumber==atmnumber1) &&(atmpin==atmpin1))
+		if((atmnumber == atmnumber1) && (atmpin == atmpin1))
 		{
 			while(true)
 			{
-				System.out.println("1. View Available Balance\n2. Withdraw Amount\n3. Deposit amount\n4. View MiniStatement\n5. exit");
+				System.out.println("1. View Available Balance \n2. Withdraw Amount \n3. Deposit amount\n4. View MiniStatement\n5. exit");
 				System.out.println(" Enter choice : ");
 				int ch=sc.nextInt();
 				if(ch==1)
@@ -38,7 +38,7 @@ public class AtmMain {
 				}
 				else if(ch==3)
 				{
-					System.out.println("Enter Amount to Deposit:");
+					System.out.println("Enter Amount to Deposit: ");
 					double depositAmount=sc.nextDouble();//5000
 					op.depositAmount(depositAmount);
 				}
