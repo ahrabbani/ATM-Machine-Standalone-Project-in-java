@@ -11,7 +11,7 @@ public class AtmOperationImpl implements AtmOperationInterf {
 	@Override
 	public void viewBalance() {
 		
-		System.out.println("Available Balance is: " +atm.getBalance());
+		System.out.println(" Available Balance is: " +atm.getBalance());
 	}
 
 	@Override
@@ -22,7 +22,7 @@ public class AtmOperationImpl implements AtmOperationInterf {
 			if(withdrawAmount <= atm.getBalance())
 			{
 				ministmt.put(withdrawAmount," Amount withdrawn ");
-				System.out.println("Collect the Cash" + withdrawAmount);
+				System.out.println(" Collect the Cash " + withdrawAmount);
 				atm.setBalance(atm.getBalance() - withdrawAmount);
 				viewBalance();
 			}
