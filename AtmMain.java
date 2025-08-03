@@ -22,8 +22,8 @@ public class AtmMain {
 		{
 			while(true)
 			{
-				System.out.println("1. View Available Balance \n2. Withdraw Amount \n3. Deposit amount\n4. View MiniStatement\n5. exit");
-				System.out.println(" Enter choice : ");
+				System.out.println("1. View Available Balance \n2. Withdraw Amount \n3. Deposit amount\n4. View MiniStatement\n5. Exit");
+				System.out.println("Enter choice : ");
 				int ch=sc.nextInt();
 				if(ch==1)
 				{
@@ -32,7 +32,7 @@ public class AtmMain {
 				}
 				else if(ch==2)
 				{
-					System.out.println(" Enter amount to withdrawn ");
+					System.out.println("Enter amount to withdrawn ");
 					double withdrawAmount=sc.nextDouble();
 					op.withdrawAmount(withdrawAmount);
 				}
@@ -60,9 +60,10 @@ public class AtmMain {
 		}
 		else
 		{
-			System.out.println(" Incorrect ATM Number or pin");
+			System.out.println("Incorrect ATM Number or pin");
 			System.exit(status);
 		}
 	}
 
 }
+
