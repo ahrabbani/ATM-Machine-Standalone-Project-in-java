@@ -13,8 +13,8 @@ public class AtmMain {
 		int atmnumber=12345;
 		int atmpin=123;
 		Scanner sc=new Scanner(System.in);
-		System.out.println(" Welcome to ATM Machine!");
-		System.out.print(" Enter ATM number: ");
+		System.out.println("Welcome to ATM Machine!");
+		System.out.print("Enter ATM number: ");
 		int atmnumber1=sc.nextInt();
 		System.out.print(" Enter Pin: ");
 		int atmpin1=sc.nextInt();
@@ -67,6 +67,7 @@ public class AtmMain {
 	}
 
 }
+
 
 
 
