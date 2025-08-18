@@ -21,7 +21,7 @@ public class AtmOperationImpl implements AtmOperationInterf {
 		{
 			if(withdrawAmount <= atm.getBalance())
 			{
-				ministmt.put(withdrawAmount,"Amount withdrawn");
+				ministmt.put(withdrawAmount,"Amount withdrawn ");
 				System.out.println("Collect the Cash: " + withdrawAmount);
 				atm.setBalance(atm.getBalance() - withdrawAmount);
 				viewBalance();
@@ -62,6 +62,7 @@ public class AtmOperationImpl implements AtmOperationInterf {
 	}
 
 }
+
 
 
 
