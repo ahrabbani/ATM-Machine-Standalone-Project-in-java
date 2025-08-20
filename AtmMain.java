@@ -32,7 +32,7 @@ public class AtmMain {
 				}
 				else if(ch==2)
 				{
-					System.out.println("Enter amount to withdrawn: ");
+					System.out.print("Enter amount to withdrawn: ");
 					double withdrawAmount=sc.nextDouble();
 					op.withdrawAmount(withdrawAmount);
 				}
@@ -67,6 +67,7 @@ public class AtmMain {
 	}
 
 }
+
 
 
 
