@@ -16,7 +16,7 @@ public class AtmMain {
 		System.out.println("Welcome to ATM Machine!");
 		System.out.print("Enter ATM number: ");
 		int atmnumber1=sc.nextInt();
-		System.out.print(" Enter Pin: ");
+		System.out.print("Enter Pin: ");
 		int atmpin1=sc.nextInt();
 		if((atmnumber == atmnumber1) && (atmpin == atmpin1))
 		{
@@ -67,6 +67,7 @@ public class AtmMain {
 	}
 
 }
+
 
 
 
