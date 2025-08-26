@@ -39,7 +39,7 @@ public class AtmMain {
 				}
 				else if(ch==3)
 				{
-					System.out.println("Enter Amount to Deposit: ");
+					System.out.print("Enter Amount to Deposit: ");
 					double depositAmount=sc.nextDouble();//5000
 					op.depositAmount(depositAmount);
 				}
@@ -68,6 +68,7 @@ public class AtmMain {
 	}
 
 }
+
 
 
 
