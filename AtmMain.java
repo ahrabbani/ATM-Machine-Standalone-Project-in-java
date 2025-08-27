@@ -51,7 +51,7 @@ public class AtmMain {
 				else if(ch==5)
 				{
 					System.out.println("Collect your ATM Card");
-					System.out.println("Thank you for choosing ATM Machine");
+					System.out.println("Thank you for choosing ATM Machine!");
 					System.exit(status);
 				}
 				else
@@ -68,6 +68,7 @@ public class AtmMain {
 	}
 
 }
+
 
 
 
