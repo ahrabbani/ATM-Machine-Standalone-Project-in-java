@@ -28,7 +28,7 @@ public class AtmOperationImpl implements AtmOperationInterf {
 			}
 			else
 			{
-				System.out.println("Insufficient Balance! ");
+				System.out.println(" Insufficient Balance! ");
 			}
 		}
 		else
@@ -41,8 +41,8 @@ public class AtmOperationImpl implements AtmOperationInterf {
 	@Override
 	public void depositAmount(double depositAmount) {
 		// TODO Auto-generated method stub
-		ministmt.put(depositAmount,"Amount Deposited ");
-		System.out.println(depositAmount + "Deposited Succesfully!");
+		ministmt.put(depositAmount," Amount Deposited ");
+		System.out.println(depositAmount + " Deposited Succesfully!");
 		atm.setBalance(atm.getBalance()+depositAmount);
 		viewBalance();
 	}
@@ -62,6 +62,7 @@ public class AtmOperationImpl implements AtmOperationInterf {
 	}
 
 }
+
 
 
 
