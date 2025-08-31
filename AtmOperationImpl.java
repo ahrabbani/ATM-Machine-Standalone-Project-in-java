@@ -11,7 +11,7 @@ public class AtmOperationImpl implements AtmOperationInterf {
 	@Override
 	public void viewBalance() {
 		
-		System.out.println("Available Balance is: " +atm.getBalance());
+		System.out.println("Available Balance is:" +atm.getBalance());
 	}
 
 	@Override
@@ -62,6 +62,7 @@ public class AtmOperationImpl implements AtmOperationInterf {
 	}
 
 }
+
 
 
 
