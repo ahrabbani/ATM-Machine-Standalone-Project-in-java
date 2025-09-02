@@ -28,7 +28,7 @@ public class AtmOperationImpl implements AtmOperationInterf {
 			}
 			else
 			{
-				System.out.println(" Insufficient Balance! ");
+				System.out.println("Insufficient Balance! ");
 			}
 		}
 		else
@@ -62,6 +62,7 @@ public class AtmOperationImpl implements AtmOperationInterf {
 	}
 
 }
+
 
 
 
