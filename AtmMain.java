@@ -10,7 +10,7 @@ public class AtmMain {
 	public static void main(String[] args) {
 		
 		AtmOperationInterf op=new AtmOperationImpl();
-		int atmnumber=123456;
+		int atmnumber=12345;
 		int atmpin=1234;
 		Scanner sc=new Scanner(System.in);
 		System.out.println("***Welcome to ATM Machine!***");
@@ -68,6 +68,7 @@ public class AtmMain {
 	}
 
 }
+
 
 
 
