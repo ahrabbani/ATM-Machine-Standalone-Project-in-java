@@ -11,7 +11,7 @@ public class AtmMain {
 		
 		AtmOperationInterf op=new AtmOperationImpl();
 		int atmnumber=123456;
-		int atmpin=12345;
+		int atmpin=1234;
 		Scanner sc=new Scanner(System.in);
 		System.out.println("***Welcome to ATM Machine!***");
 		System.out.print("Enter ATM number: ");
@@ -68,6 +68,7 @@ public class AtmMain {
 	}
 
 }
+
 
 
 
