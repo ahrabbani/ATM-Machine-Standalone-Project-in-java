@@ -42,7 +42,7 @@ public class AtmOperationImpl implements AtmOperationInterf {
 	public void depositAmount(double depositAmount) {
 		// TODO Auto-generated method stub
 		ministmt.put(depositAmount," Amount Deposited ");
-		System.out.println(depositAmount + " Deposited Succesfully!");
+		System.out.println(depositAmount + " Deposited Succesfully! ");
 		atm.setBalance(atm.getBalance()+depositAmount);
 		viewBalance();
 	}
@@ -62,6 +62,7 @@ public class AtmOperationImpl implements AtmOperationInterf {
 	}
 
 }
+
 
 
 
