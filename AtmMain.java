@@ -2,9 +2,6 @@ package atm;
 
 import java.util.Scanner;
 public class AtmMain {
-
-	
-
 	private static int status;
 
 	public static void main(String[] args) {
@@ -68,6 +65,7 @@ public class AtmMain {
 	}
 
 }
+
 
 
 
