@@ -19,7 +19,7 @@ public class Atm {
 	
 	public void setBalance(double balance) {
 		// TODO Auto-generated method stub
-		this.balance=balance;
+		this.balance = balance;
 	}
 	
 	public double getDepositAmount()
@@ -44,3 +44,4 @@ public class Atm {
         
 	
 }
+
