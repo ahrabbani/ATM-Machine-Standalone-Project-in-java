@@ -39,9 +39,10 @@ public class Atm {
 	
 	public void setWithdrawAmount(double withdrawAmount)
 	{
-		this.withdrawAmount = withdrawAmount;
+		this.withdrawAmount=withdrawAmount;
 	}
         
 	
 }
+
 
